@@ -158,10 +158,8 @@ class _CounterDownAppState extends State<CounterDownApp> {
             SizedBox(height: 95),
             isRunning
                 ?
-                  // SizedBox(height: 30),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    // crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       ElevatedButton(
                         style: ButtonStyle(
@@ -186,7 +184,7 @@ class _CounterDownAppState extends State<CounterDownApp> {
                             if (rebetedfunc!.isActive) {
                             rebetedfunc!.cancel();
                           } else {
-                            // rebetedfunc!.isActive;
+                            
                             startTimer();
                           }
                           });
